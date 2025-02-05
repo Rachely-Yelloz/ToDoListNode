@@ -1,11 +1,11 @@
-import express from 'express';
+import express from 'express'
 import renderApi from '@api/render-api';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // אימות מול Render API
-renderApi.auth('biyrdoodqvbnf3g9axwi');
+renderApi.auth('rnd_1d4vsbAsY2SbqEMLn92Tq2ePaRzG');
 
 app.get('/', async (req, res) => {
   try {
